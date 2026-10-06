@@ -18,6 +18,6 @@ def main():
         reply = get_reply(user_input)
         print("Chatbot:", reply)
         if user_input.lower().strip() == "bye":
-            break  # Indented properly inside the 'if' block
+            break  
 
 main()
